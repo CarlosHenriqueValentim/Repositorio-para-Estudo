@@ -12,6 +12,7 @@ namespace Atividade
         {
             int[] numeros = new int[5];
             int aux = 0;
+
             for(int i =0; i<5; i++)
             {
                 Console.WriteLine("Digite um número:");
@@ -22,37 +23,44 @@ namespace Atividade
                 aux =  numeros[0];
                 numeros[0] = numeros[1];
                 numeros[1] = aux;
+
             }if (numeros[0] > numeros[2])
             {
                 aux = numeros[0];
                 numeros[0] = numeros[2];
                 numeros[2] = aux;
+
             }if (numeros[0] > numeros[3])
             {
                 aux = numeros[0];
                 numeros[0] = numeros[3];
                 numeros[3] = aux;
+
             }if (numeros[0] > numeros[4])
             {
                 aux = numeros[0];
                 numeros[0] = numeros[4];
                 numeros[4] = aux;
+
             }if (numeros[1] > numeros[2])
             {
                 aux = numeros[1];
                 numeros[1] = numeros[2];
                 numeros[2] = aux;
+
             }if (numeros[1] > numeros[3])
             {
                 aux = numeros[1];
                 numeros[1] = numeros[3];
                 numeros[3] = aux;
+
             }
             if (numeros[1] > numeros[4])
             {
                 aux = numeros[1];
                 numeros[1] = numeros[4];
                 numeros[4] = aux ;
+
             }if (numeros[2] > numeros[3])
             {
                 aux = numeros[2];
